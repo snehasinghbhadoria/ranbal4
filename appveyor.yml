@@ -1,6 +1,6 @@
 version: 1.0.{build}
 
-image: Ubuntu2004
+image: Ubuntu2204
 
 init:
   - echo "Starting AppVeyor build..."
