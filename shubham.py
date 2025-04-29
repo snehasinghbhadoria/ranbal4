@@ -56,7 +56,7 @@ def handle_attack(message):
                 try:
                     start_attack_reply(message, target, port, time)
                     # Simulate attack process
-                    full_command = f"./ranbal {target} {port} {time} 900"
+                    full_command = f"./ranbal {target} {port} {time} 2"
                     subprocess.run(full_command, shell=True)
 
                     response = "ATTACK COMPLETED."
